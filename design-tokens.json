@@ -1,0 +1,16 @@
+{
+  "color": {
+    "bef-500": "#0B7A44",
+    "bef-gold": "#C9A52B",
+    "white": "#FFFFFF",
+    "bg": "#F7F7F8",
+    "text": "#0F172A",
+    "muted": "#6B7280"
+  },
+  "font": {
+    "display": "Poppins, system-ui, sans-serif",
+    "body": "Inter, system-ui, sans-serif"
+  },
+  "size": { "base": 16 },
+  "space": { "sm": 8, "md": 16, "lg": 24 }
+}
