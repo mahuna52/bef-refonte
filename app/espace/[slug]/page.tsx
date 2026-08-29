@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import JoinButton from '@/components/JoinButton'
+import JoinButton from '../../../components/JoinButton'
 import Image from 'next/image'
 
 export default function EspacePage({ params }: { params: { slug: string } }) {

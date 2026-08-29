@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import JoinButton from '@/components/JoinButton'
+import JoinButton from '../../../components/JoinButton'
 
 export default function ProjectDetail({ params }: { params: { slug: string } }){
   const { slug } = params
