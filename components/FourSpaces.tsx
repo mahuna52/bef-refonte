@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const spaces = [
@@ -14,7 +15,7 @@ export default function FourSpaces(){
       {spaces.map(s => (
         <Link key={s.id} href={`/espace/${s.id}`} className="group block rounded-lg overflow-hidden shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-bef-500">
           <div className="relative h-44 sm:h-40">
-            <img src={s.img} alt={s.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            <Image src={s.img} alt={s.label} fill className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent" />
             <div className="absolute left-4 bottom-4 text-white">
               <div className="text-2xl">{s.icon}</div>

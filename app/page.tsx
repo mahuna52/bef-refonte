@@ -11,6 +11,14 @@ export default function Home() {
       <section className="container">
         <FourSpaces />
       </section>
+
+      {/* Join CTA after spaces */}
+      <section className="container">
+        <div className="flex justify-center mt-8">
+          <JoinButton />
+        </div>
+      </section>
+
       <section className="bg-bg py-12">
         <div className="container">
           {/* how it works placeholder */}
