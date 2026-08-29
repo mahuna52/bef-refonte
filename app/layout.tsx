@@ -1,4 +1,4 @@
-@import './globals.css'
+import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Les Béninois financent les Béninois — plateforme solidaire'
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
       <body className="bg-white text-gray-900 antialiased">
